@@ -1,4 +1,6 @@
 data = fetch_openml(name='diabetes', version=1, as_frame=True)
+df = data.frame
+
 features = list(df.columns)
 selected_features = [features[2], features[4], features[5], features[7], features[0]]
 
