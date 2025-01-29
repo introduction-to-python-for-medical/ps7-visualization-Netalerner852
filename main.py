@@ -1,4 +1,4 @@
-data = fetch_openml(name='diabetes', version=1, as_frame=True)
+data = fetch_openml(name='diabetes', version=1, as_frame=True
 df = data.frame
 
 features = list(df.columns)
