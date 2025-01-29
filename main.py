@@ -1,3 +1,7 @@
+import matplotlib.pyplot as plt
+from sklearn.datasets import fetch_openml
+
+
 data = fetch_openml(name='diabetes', version=1, as_frame=True)
 df = data.frame
 
